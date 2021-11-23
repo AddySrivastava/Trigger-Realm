@@ -23,5 +23,7 @@ exports = async function(changeEvent) {
     const users = mongodb.db("movies").collection("db");
     
     const one = await users.insertOne(fullDocument);
+    
+    console.log("Hello world");
 
 };

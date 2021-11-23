@@ -1,0 +1,16 @@
+{
+    "id": "619cfb728d625794c11badeb",
+    "name": "scheduled_trigger",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/2 * * * *"
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_scheduled_trigger_1637679491"
+            }
+        }
+    }
+}
